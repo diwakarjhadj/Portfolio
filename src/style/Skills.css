@@ -1,0 +1,58 @@
+.skills-section{
+    background-color: var(--normal-white);
+    width: 80%;
+    margin-left: auto;
+    position: relative;
+    z-index: 99;
+    padding: 15px 5px;
+}
+
+.skills-heading{
+    border-bottom: 2px solid var(--light-blue);
+    width: 30px;
+    margin: 10px;
+    font-size: 25px;
+}
+.skills-para {
+    padding: 20px 10px;
+}
+.techskill-progress, .frameworkskill-progress{
+    width: 50%;
+    padding: 0px 10px;
+}
+.skills-progress{
+    display: flex;
+    padding: 0px 10px;
+}
+.skill-performance{
+    margin: 10px 0px;
+}
+
+.skillname-rate{
+    display: flex;
+    justify-content: space-between;
+    font-weight: 500;
+}
+.main-skillperformance{
+    padding: 10px 0px;
+}
+
+/* ################################### Media-query ##################################### */
+
+  @media screen and (max-width: 991px) {
+    .skills-section{
+      width: 100%;
+    }
+  }
+
+  @media screen and (max-width: 645px) {
+    .skills-progress {
+        display: flex;
+        padding: 0px 10px;
+        flex-direction: column;
+    }
+    .techskill-progress, .frameworkskill-progress {
+        width: 100%;
+        padding: 0px 10px;
+    }
+  }

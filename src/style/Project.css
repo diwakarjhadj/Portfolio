@@ -1,0 +1,138 @@
+.project-section {
+    background-color: var(--white-color);
+    width: 80%;
+    margin-left: auto;
+    position: relative;
+    z-index: 99;
+    padding: 15px 5px;
+}
+
+.project-heading {
+    border-bottom: 2px solid var(--light-blue);
+    width: 30px;
+    margin: 10px;
+    font-size: 25px;
+}
+
+.project-para {
+    padding: 20px 10px;
+}
+
+.main-project-image {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+
+.project-image {
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+}
+
+.project-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+.project-image1,
+.project-image2,
+.project-image3 {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.projectname-detail {
+    background: var(--normal-blue);
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    top: -38px;
+    cursor: pointer;
+    text-align: center;
+    transform: translateY(100%);
+    transition: transform 0.3s ease;
+}
+
+.projectname {
+    font-size: 20px;
+    font-weight: 500;
+    color: var(--white-color);
+    width: 50%;
+    padding: 5px 0px;
+
+}
+
+.projectname:hover {
+    background: var(--normal-blue);
+}
+
+.project-detail {
+    font-size: 20px;
+    color: var(--white-color);
+    width: 50%;
+    padding: 5px 0px;
+    border-left: 1px solid var(--medium-blue);
+}
+
+.project-detail:hover {
+    background: var(--normal-blue);
+}
+
+.project-image:hover:before {
+    content: "";
+    position: absolute;
+    width: 25%;
+    height: 55%;
+    background-color: var(--normallight-grey);
+}
+
+.project-image:hover .projectname-detail {
+    transform: translateY(0%);
+}
+
+/* #################################### Media-query ########################################### */
+
+@media screen and (max-width: 1125px) {
+    .project-image {
+        width: 250px;
+        height: 250px;
+        overflow: hidden;
+    }
+}
+
+
+
+@media screen and (max-width: 1065px) {
+    .project-image {
+        width: 200px;
+        height: 200px;
+        overflow: hidden;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .project-section {
+        width: 100%;
+    }
+}
+
+
+@media screen and (max-width: 865px) {
+    .project-image {
+        width: 165px;
+        height: 165px;
+        overflow: hidden;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .project-image {
+        width: 100px;
+        height: 100px;
+        overflow: hidden;
+    }
+  }

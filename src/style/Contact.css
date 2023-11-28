@@ -1,0 +1,37 @@
+.contact-section {
+  background-color: var(--white-color);
+  width: 80%;
+  margin-left: auto;
+  position: relative;
+  z-index: 99;
+  padding: 15px 5px;
+}
+
+.contact-heading {
+  border-bottom: 2px solid var(--light-blue);
+  width: 30px;
+  margin: 10px;
+  font-size: 25px;
+}
+
+.contact-para {
+  padding: 20px 10px;
+}
+
+.social-media-contact {
+  display: flex;
+  justify-content: space-around;
+}
+
+.social-media-link-contact i {
+  font-size: 30px;
+  color: var(--blue-color);
+}
+
+/* ############################### Media-query ######################### */
+
+@media screen and (max-width: 991px) {
+  .contact-section {
+    width: 100%;
+  }
+}

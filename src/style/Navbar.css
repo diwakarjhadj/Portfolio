@@ -1,0 +1,191 @@
+.main-width {
+  width: 20%;
+  height: 100vh;
+  background-color: var(--main-color);
+  color: var(--white-color);
+  position: fixed;
+  z-index: 1;
+  overflow-y: auto;
+}
+
+.main-section {
+  display: flex;
+}
+
+.main-profile-image {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+}
+
+.profile-image {
+  width: 100px;
+  height: 100px;
+}
+
+.profile-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.profile-name {
+  padding-top: 10px;
+  font-weight: 600;
+  font-size: 25px;
+}
+
+.social-media {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.social-media-link {
+  background: var(--dark-black);
+  padding: 8px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.social-media-link:hover {
+  background-color: var(--blue-color);
+}
+
+.portflio-maindesc {
+  padding: 30px 0px 0px 30px;
+}
+
+.portfoio-heading {
+  padding-bottom: 35px;
+}
+
+.portfoio-heading a {
+  text-decoration: none;
+  color: var(--white-color);
+}
+
+.background-Image {
+  background-image: url("../img/DiwakarJha.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: fixed;
+  background-position: center;
+  background-color: var(--shadow-color);
+  height: 768px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-width::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 20%;
+  width: 80%;
+  height: 100vh;
+  background: var(--thin-black);
+  z-index: 1;
+}
+
+.image-width {
+  width: 80%;
+}
+
+.background-text {
+  font-size: 30px;
+  color: var(--aqua-color);
+  font-weight: 600;
+}
+
+.background-text p {
+  font-size: 20px;
+}
+
+
+.portfoio-heading .active {
+  color: var(--aqua-color);
+}
+
+.portfoio-heading-bottom .active {
+  color: var(--aqua-color);
+}
+
+.portfoio-heading span:hover {
+  color: var(--aqua-color);
+}
+
+.portfoio-heading-bottom:hover {
+  color: var(--aqua-color);
+}
+
+.hemburger-menu {
+  display: none;
+}
+
+.bars i,
+.x-mark i {
+  font-size: 20px;
+  background-color: var(--blue-color);
+  color: var(--white-color);
+  padding: 5px;
+}
+
+.show-hemburger {
+  display: block;
+}
+
+.hide-hemburger {
+  display: none;
+}
+
+
+/* ################## Media-query #################### */
+
+@media screen and (max-width: 991px) {
+  .main-width {
+    width: 30%;
+    z-index: 100;
+    transition: .5s;
+    left: 0;
+  }
+
+  .move-left {
+    left: -100%;
+  }
+
+  .hemburger-menu {
+    display: flex;
+    position: fixed;
+    top: 20px;
+    right: 10px;
+    z-index: 100;
+  }
+
+  .image-width::after {
+    left: 0%; 
+    width: 100%;
+  }
+}
+
+/* ############################## Media-query ################################ */
+
+@media screen and (max-width: 765px) {
+  .main-width {
+    width: 50%;
+    z-index: 100;
+    transition: .5s;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .main-width {
+    width: 90%;
+    z-index: 100;
+    transition: .5s;
+  }
+}

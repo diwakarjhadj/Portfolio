@@ -1,0 +1,103 @@
+.resume-section{
+    background-color: var(--normal-white);
+    width: 80%;
+    margin-left: auto;
+    position: relative;
+    z-index: 99;
+    padding: 15px 5px;
+}
+
+.resume-heading{
+    border-bottom: 2px solid var(--light-blue);
+    width: 30px;
+    margin: 10px;
+    font-size: 25px;
+}
+.resume-para {
+    padding: 20px 10px;
+}
+
+.main-resume-description{
+    display: flex;
+}
+.resume-intro-description{
+    width: 50%;
+    margin: 15px 10px;
+}
+.person-name{
+    font-weight: 500;
+    font-size: 20px;
+}
+.description-text{
+    font-style: italic;
+    padding: 10px;
+}
+.short-desc{
+    padding: 10px;
+}
+.education-year{
+    margin: 10px 0px 0px 10px;
+    padding: 5px;
+    background-color: var(--light-grey);
+    width: fit-content;
+}
+.education-institute{
+    font-style: italic;
+    padding: 10px;
+}
+.education-summary{
+    padding: 10px;
+}
+.education-intro{
+    padding-top: 20px;
+}
+.resume-Experience{
+    width: 50%;
+    margin: 15px 10px;
+}
+.short-desc li{
+    padding-bottom: 15px;
+}
+
+.resume-pdf{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.resume-pdf button{
+    background-color: var(--normalmedium-blue);
+    color: var(--white-color);
+    border: none;
+    border-radius: 5px;
+}
+
+.resume-pdf button:hover{
+    background-color: var(--blue-color);
+}
+
+/* ###################################### Media-query ################################# */
+
+  @media screen and (max-width: 991px) {
+    .resume-section{
+      width: 100%;
+    }
+
+    .main-resume-description {
+        display: flex;
+        flex-direction: column;
+    }
+  }
+
+  @media screen and (max-width: 645px) {
+    .main-resume-description {
+        display: flex;
+        flex-direction: column;
+    }
+    .resume-intro-description, .resume-Experience {
+        width: 95%;
+        margin: 15px 10px;
+    }
+    .resume-pdf button {
+        margin-right: 50px;
+    }
+  }
