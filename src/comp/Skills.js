@@ -5,7 +5,9 @@ const Skills = () => {
         <>
             <div className='skills-section' id='skills'>
                 <div className='skills-heading'>Skills</div>
-                <div className='skills-para'>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</div>
+                <div className='skills-para'>
+                Welcome to my skills section, where I showcase my professional Skills that empower me to excel in my field and industry. With a passion for specific aspect or niche, I bring a unique blend of technical proficiency, creative problem-solving, and collaborative spirit to every project. My skills are not just a list but a testament to my commitment to staying at the forefront of industry and delivering exceptional results.
+                </div>
                 <div className='skills-progress'>
                     <div className='techskill-progress'>
                         <div className='main-skillperformance'>

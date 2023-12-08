@@ -10,8 +10,8 @@ window.addEventListener('scroll', function () {
     var aboutLink = document.querySelector('.aboutLink');
     var skillsLink = document.querySelector('.skillsLink');
     var projectLink = document.querySelector('.projectLink');
-    if (window.scrollY + window.innerHeight === document.documentElement.scrollHeight) {
-
+    // console.log(window.scrollY+this.window.innerHeight,document.documentElement.scrollHeight);
+    if (window.scrollY + window.innerHeight >= (document.documentElement.scrollHeight - 1)) {
         resumeLink.classList.remove('active');
         portfolioHeading.style.color = 'aqua';
     }
@@ -54,7 +54,7 @@ const Navbar = () => {
             // Check if the window width is at most 991px
             if (windowWidth <= 991) {
                 setIsBarsVisible(true); // Reset the visibility when the window is resized to 991px or less
-            } else{
+            } else {
                 setIsBarsVisible(false); // Hide the icons when the window is wider than 991px
             }
         };
@@ -84,15 +84,26 @@ const Navbar = () => {
                             <div className='profile-name'>Diwakar Jha</div>
                         </div>
                         <div className='social-media'>
-                            <div className='social-media-link twitter'><i className="fa-brands fa-twitter"></i></div>
-                            <div className='social-media-link youtube'><i className="fa-brands fa-youtube"></i></div>
-                            <div className='social-media-link instagram'><i className="fa-brands fa-instagram"></i></div>
-                            <div className='social-media-link facebook'><i className="fa-brands fa-facebook"></i></div>
-                            <div className='social-media-link linkedin'><i className="fa-brands fa-linkedin"></i></div>
+                            <a href='' target='_blank'>
+                                <div className='social-media-link twitter'><i className="fa-brands fa-twitter"></i></div>
+                            </a>
+                            <a href='https://www.youtube.com/channel/UCjZGcg-NwI96hksQsIcQJDA' target='_blank'>
+                                <div className='social-media-link youtube'><i className="fa-brands fa-youtube"></i></div>
+                            </a>
+                            <a href='' target='_blank'>
+                                <div className='social-media-link instagram'><i className="fa-brands fa-instagram"></i></div>
+                            </a>
+                            <a href='' target='_blank'>
+                                <div className='social-media-link facebook'><i className="fa-brands fa-facebook"></i></div>
+                            </a>
+                            <a href='https://www.linkedin.com/in/diwakar-jha-22a436218/' target='_blank'>
+                                <div className='social-media-link linkedin'><i className="fa-brands fa-linkedin"></i></div>
+                            </a>
+
                         </div>
 
                         <div className='portflio-maindesc'>
-                            <div className='portfoio-heading home'> <Link to="home" spy={true} smooth={true} offset={0} duration={500} onClick={handleLinkClick} className='homeLink'> <span style={{ cursor: 'pointer' }}><i className="fa-solid fa-house"></i> Home</span></Link></div>
+                            <div className='portfoio-heading home'> <Link to="home" spy={true} smooth={true} offset={0} duration={500} onClick={handleLinkClick} className='homeLink' href="https://www.youtube.com/channel/UCjZGcg-NwI96hksQsIcQJDA"> <span style={{ cursor: 'pointer' }}><i className="fa-solid fa-house"></i> Home</span></Link></div>
                             <div className='portfoio-heading about'>  <Link to="about" spy={true} smooth={true} offset={0} duration={500} onClick={handleLinkClick} className='aboutLink'><span style={{ cursor: 'pointer' }}><i className="fa-regular fa-user"></i> About</span></Link></div>
                             <div className='portfoio-heading skills' >  <Link to="skills" spy={true} smooth={true} offset={0} duration={500} onClick={handleLinkClick} className='skillsLink'><span style={{ cursor: 'pointer' }}><i className="fa-regular fa-address-card"></i> Skills</span> </Link></div>
                             <div className='portfoio-heading project'>  <Link to="project" spy={true} smooth={true} offset={0} duration={500} onClick={handleLinkClick} className='projectLink'> <span style={{ cursor: 'pointer' }}><i className="fa-solid fa-ranking-star"></i> Projects</span> </Link></div>
@@ -121,4 +132,4 @@ const Navbar = () => {
     )
 }
 
-export default Navbar
+export default Navbar;

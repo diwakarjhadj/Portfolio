@@ -48,6 +48,7 @@
   padding: 8px;
   border-radius: 50%;
   cursor: pointer;
+  color: #fff;
 }
 
 .social-media-link:hover {
@@ -184,7 +185,7 @@
 
 @media screen and (max-width: 500px) {
   .main-width {
-    width: 90%;
+    width: 50%;
     z-index: 100;
     transition: .5s;
   }

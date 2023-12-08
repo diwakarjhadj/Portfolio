@@ -8,7 +8,7 @@ const Project = () => {
         <>
             <div className='project-section' id="project">
                 <div className='project-heading'>Project</div>
-                <div className='project-para'>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</div>
+                <div className='project-para'>Throughout my career, I've actively contributed to a variety of impactful projects, showcasing my ability to translate concepts into tangible results. Here are some key projects that highlight my skills and achievements:</div>
                 <div className='main-project-image'>
                     <div className='project-image1'>
                         <div className='project-image'>

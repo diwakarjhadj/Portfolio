@@ -33,7 +33,7 @@ const About = () => {
                 <div className='main-about-desc' id='about'>
                     <div className='main-About'>About</div>
                     <div className='about-desc'>
-                        Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.
+                        Hello Everyone! 👋 I'm Diwakar Jha,In this Section we will Discuss about my career and my skills I'm passionate to discuss about my career and my skills . Here's a little bit about me:
                     </div>
                     <div className='about-image-desc'>
                         <div className='about-images'>
@@ -43,24 +43,24 @@ const About = () => {
                         </div>
                         <div className='about-image-description'>
                             <div className='about-desc-heading'>
-                                UI/UX Designer & Web Developer
+                                SOFTWARE DEVELOPER ENGINEER -I
                             </div>
                             <div className='about-desc-text'>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                            <p>My Name is Diwakar Jha And I'm the software Developer Engineer in w3 Villa Technology private Ltd. I had Completed My B.tech in (CSE) Computer Science and Engineer.</p>
                             </div>
                             <div className='about-all-desc'>
                                 <div className='personal-desc1'>
                                     <div className='website'><i className="fa-solid fa-chevron-right" style={{ color: "#2bd1d4" }}></i><strong> website: </strong>www.example.com</div>
                                     <div className='website'><i className="fa-solid fa-chevron-right" style={{ color: "#2bd1d4" }}></i><strong> Phone: </strong>+123 456 7890</div>
-                                    <div className='website'><i className="fa-solid fa-chevron-right" style={{ color: "#2bd1d4" }}></i><strong> City: </strong>New York, USA</div>
+                                    <div className='website'><i className="fa-solid fa-chevron-right" style={{ color: "#2bd1d4" }}></i><strong> City: </strong>Noida, UP, INDIA</div>
                                 </div>
                                 <div className='personal-desc2'>
                                     <div className='website'><i className="fa-solid fa-chevron-right" style={{ color: "#2bd1d4" }}></i><strong> Degree: </strong>B.Tech</div>
-                                    <div className='website'><i className="fa-solid fa-chevron-right" style={{ color: "#2bd1d4" }}></i><strong> Email: </strong>email@example.com</div>
+                                    <div className='website'><i className="fa-solid fa-chevron-right" style={{ color: "#2bd1d4" }}></i><strong> Email: </strong>dkj9650964906@gmail.com</div>
                                     <div className='website'><i className="fa-solid fa-chevron-right" style={{ color: "#2bd1d4" }}></i><strong> Freelance: </strong>Available</div>
                                 </div>
                             </div>
-                            <div className='personal-text-desc'>Officiis eligendi itaque labore et dolorum mollitia officiis optio vero. Quisquam sunt adipisci omnis et ut. Nulla accusantium dolor incidunt officia tempore. Et eius omnis. Cupiditate ut dicta maxime officiis quidem quia. Sed et consectetur qui quia repellendus itaque neque. Aliquid amet quidem ut quaerat cupiditate. Ab et eum qui repellendus omnis culpa magni laudantium dolores.</div>
+                            <div className='personal-text-desc'>Apart from the coding I love to listening the music,dancing and Swimming, And Playing the Outdoor Game Like Cricket, and Football I like to play chess and video Games. I like to watch the Movies And Many More Exciting Things to do.</div>
                         </div>
                     </div>
                 </div>
