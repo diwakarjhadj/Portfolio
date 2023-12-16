@@ -1,9 +1,9 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 import '../style/Resume.css';
 
 
-const PDF_file = 'http://localhost:3000/resume1.pdf';
+const PDF_file = 'http://localhost:3000/resume2.pdf';
 const Resume = () => {
 
     const downloadFile = (url) => {

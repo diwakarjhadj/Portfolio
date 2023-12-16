@@ -84,20 +84,20 @@ const Navbar = () => {
                             <div className='profile-name'>Diwakar Jha</div>
                         </div>
                         <div className='social-media'>
-                            <a href='' target='_blank'>
+                            <a href='https://www.youtube.com/channel/UCjZGcg-NwI96hksQsIcQJDA' target='_blank' rel='noreferrer'>
                                 <div className='social-media-link twitter'><i className="fa-brands fa-twitter"></i></div>
                             </a>
-                            <a href='https://www.youtube.com/channel/UCjZGcg-NwI96hksQsIcQJDA' target='_blank'>
+                            <a href='https://www.youtube.com/channel/UCjZGcg-NwI96hksQsIcQJDA' target='_blank' rel='noreferrer'>
                                 <div className='social-media-link youtube'><i className="fa-brands fa-youtube"></i></div>
                             </a>
-                            <a href='' target='_blank'>
+                            <a href='https://www.youtube.com/channel/UCjZGcg-NwI96hksQsIcQJDA' target='_blank' rel='noreferrer'>
                                 <div className='social-media-link instagram'><i className="fa-brands fa-instagram"></i></div>
                             </a>
-                            <a href='' target='_blank'>
+                            <a href='https://www.youtube.com/channel/UCjZGcg-NwI96hksQsIcQJDA' target='_blank' rel='noreferrer'>
                                 <div className='social-media-link facebook'><i className="fa-brands fa-facebook"></i></div>
                             </a>
-                            <a href='https://www.linkedin.com/in/diwakar-jha-22a436218/' target='_blank'>
-                                <div className='social-media-link linkedin'><i className="fa-brands fa-linkedin"></i></div>
+                            <a href='https://www.youtube.com/channel/UCjZGcg-NwI96hksQsIcQJDA' target='_blank' rel='noreferrer'>
+                                <div className='social-media-link youtube'><i className="fa-brands fa-youtube"></i></div>
                             </a>
 
                         </div>
