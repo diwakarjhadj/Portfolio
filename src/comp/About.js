@@ -33,8 +33,8 @@ const About = () => {
                 <div className='main-about-desc' id='about'>
                     <div className='main-About'>About</div>
                     <div className='about-desc'>
-                        Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.
-                    </div>
+                    Hi, I'm Diwakar Jha, a Software developer based in Noida. I specialize in creating responsive and dynamic websites and have a passion for clean and efficient code, I have 1.5 years of experience in web development. I am working with w3villa Technology a large corporations, focusing on front-end development in <b>React.js</b> and <b>Vue.js</b> as well as Backend knowledge in <b>Node.js</b>.
+</div>
                     <div className='about-image-desc'>
                         <div className='about-images'>
                             <div className='about-image'>
@@ -43,24 +43,24 @@ const About = () => {
                         </div>
                         <div className='about-image-description'>
                             <div className='about-desc-heading'>
-                                UI/UX Designer & Web Developer
+                                Software Developer Engineer
                             </div>
                             <div className='about-desc-text'>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                <p> My expertise includes HTML, CSS, JavaScript, and React. I am proficient in various development tools and constantly learning new technologies to stay current in the ever-evolving tech landscape. I have successfully completed projects within in a given amount of time with the Clean Code. I Learn with many senior Experience people , where I led the front-end development team, and the interactive web app for User Experience.</p>
                             </div>
                             <div className='about-all-desc'>
                                 <div className='personal-desc1'>
                                     <div className='website'><i className="fa-solid fa-chevron-right" style={{ color: "#2bd1d4" }}></i><strong> website: </strong>www.example.com</div>
-                                    <div className='website'><i className="fa-solid fa-chevron-right" style={{ color: "#2bd1d4" }}></i><strong> Phone: </strong>+123 456 7890</div>
-                                    <div className='website'><i className="fa-solid fa-chevron-right" style={{ color: "#2bd1d4" }}></i><strong> City: </strong>New York, USA</div>
+                                    <div className='website'><i className="fa-solid fa-chevron-right" style={{ color: "#2bd1d4" }}></i><strong> Phone: </strong>+91 7678296368</div>
+                                    <div className='website'><i className="fa-solid fa-chevron-right" style={{ color: "#2bd1d4" }}></i><strong> City: </strong>Noida, India</div>
                                 </div>
                                 <div className='personal-desc2'>
                                     <div className='website'><i className="fa-solid fa-chevron-right" style={{ color: "#2bd1d4" }}></i><strong> Degree: </strong>B.Tech</div>
-                                    <div className='website'><i className="fa-solid fa-chevron-right" style={{ color: "#2bd1d4" }}></i><strong> Email: </strong>email@example.com</div>
+                                    <div className='website'><i className="fa-solid fa-chevron-right" style={{ color: "#2bd1d4" }}></i><strong> Email: </strong>dkj9650964906@gmail.com</div>
                                     <div className='website'><i className="fa-solid fa-chevron-right" style={{ color: "#2bd1d4" }}></i><strong> Freelance: </strong>Available</div>
                                 </div>
                             </div>
-                            <div className='personal-text-desc'>Officiis eligendi itaque labore et dolorum mollitia officiis optio vero. Quisquam sunt adipisci omnis et ut. Nulla accusantium dolor incidunt officia tempore. Et eius omnis. Cupiditate ut dicta maxime officiis quidem quia. Sed et consectetur qui quia repellendus itaque neque. Aliquid amet quidem ut quaerat cupiditate. Ab et eum qui repellendus omnis culpa magni laudantium dolores.</div>
+                            <div className='personal-text-desc'> When I'm not coding, I enjoy Dancing, Swiming, and exploring new tech gadgets. I believe in lifelong learning and the power of technology to make the world a better place. Feel free to browse through my portfolio to see some of my work. If you’d like to collaborate or just want to say hi, you can reach me or connect with me on LinkedIn, E-mail and GitHub.</div>
                         </div>
                     </div>
                 </div>

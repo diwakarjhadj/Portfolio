@@ -3,7 +3,7 @@
     width: 80%;
     margin-left: auto;
     position: relative;
-    z-index: 99;
+    /* z-index: 99; */
     padding: 15px 5px;
 }
 

@@ -5,17 +5,17 @@ const Skills = () => {
         <>
             <div className='skills-section' id='skills'>
                 <div className='skills-heading'>Skills</div>
-                <div className='skills-para'>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</div>
+                <div className='skills-para'>I am a passionate software developer with a strong foundation in web development and a keen interest in new technologies. Below are some of the key skills and tools that I bring to every project.</div>
                 <div className='skills-progress'>
                     <div className='techskill-progress'>
                         <div className='main-skillperformance'>
                             <div className='skillname-rate'>
-                                <div className='skills-name'>HTML</div>
-                                <div className='skills-rate'>100%</div>
+                                <div className='skills-name'>TypeScript</div>
+                                <div className='skills-rate'>60%</div>
                             </div>
 
                             <div className="progress  skill-performance">
-                                <div className="progress-bar" role="progressbar" style={{ width: "100%" }} aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                                <div className="progress-bar" role="progressbar" style={{ width: "60%" }} aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
                             </div>
                         </div>
                         <div className='main-skillperformance'>

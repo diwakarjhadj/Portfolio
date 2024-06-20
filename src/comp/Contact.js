@@ -6,7 +6,7 @@ const Contact = () => {
         <>
             <div className='contact-section' id="contact">
                 <div className='contact-heading'>Contact</div>
-                <div className='contact-para'>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</div>
+                <div className='contact-para'>Feel free to reach out to me via email or connect with me on LinkedIn, GitHub and watch my youtube channel for DSA. I look forward to discussing potential opportunities with you.</div>
                 <div className='social-media-contact'>
                     <div className='social-media-link-contact twitter'><i className="fa-brands fa-twitter" style={{ cursor: 'pointer' }}></i></div>
                     <div className='social-media-link-contact youtube'><i className="fa-brands fa-youtube" style={{ cursor: 'pointer' }}></i></div>
