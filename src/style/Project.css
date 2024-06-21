@@ -28,10 +28,17 @@
 }
 
 .project-image {
-    width: 300px;
-    height: 300px;
+    width: 95%;
+    height: 95%;
     overflow: hidden;
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.03);
+    border-radius: 8px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
+.project-image:hover{
+    transform: scale(1.03); /* Zoom effect */
+    box-shadow: 15px 15px 10px 2px rgba(0, 0, 0, 0.04); 
+} 
 
 .project-image img {
     width: 100%;
@@ -91,6 +98,7 @@
     width: 25%;
     height: 55%;
     background-color: var(--normallight-grey);
+    
 }
 
 .project-image:hover .projectname-detail {

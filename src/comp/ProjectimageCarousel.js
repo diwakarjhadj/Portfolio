@@ -50,7 +50,7 @@ import Carousel from 'react-bootstrap/Carousel';
 import Kivo from '../img/Kivo.png';
 import Kivo1 from '../img/kivo1.png';
 import Kivo2 from '../img/kivo2.png';
-// import Kivo3 from '../img/kivo3.png';
+import '../style/ProjectimageCarousel.css'
 import Chatwoot1 from '../img/Chatwoot1.png';
 import Chatwoot2 from '../img/Chatwoot2.png';
 import Chatwoot3 from '../img/Chatwoot3.png';
@@ -173,8 +173,8 @@ const images = [
     },
 ];
 
-export default function App() {
-    const objectId = 2; // Example ID to filter by
+export default function App({objectid}) {
+    const objectId = objectid; // Example ID to filter by
     const filteredImages = images.filter(image => image.project_id === objectId);
 
     return (
@@ -183,7 +183,7 @@ export default function App() {
                 {filteredImages.map(image => (
                     <Carousel.Item key={image.id}>
                         <img
-                            className="d-block w-100"
+                            className="d-block image-size"
                             src={image.src}
                             alt={image.title}
                             style={{ height: '700px', width: '100%' }}

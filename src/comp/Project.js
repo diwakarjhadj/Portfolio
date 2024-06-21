@@ -8,7 +8,10 @@ import DocSign from '../img/DocSign1.png';
 import Ribago from '../img/Ribago1.png';
 const Project = () => {
     const [showModal, setShowModal] = useState(false);
-    const handleOpenModal = () => {
+    const [projectId,setProjectId]=useState(null);
+
+    const handleOpenModal = (id) => {
+        setProjectId(id);
         setShowModal(true);
     };
 
@@ -26,7 +29,7 @@ const Project = () => {
                             {/* <img src={projectImage1} alt="Internet Connection" /> */}
                             <img src={Kivo} alt='Internet Connection'/>
                             <div className='projectname-detail'>
-                                <div className='projectname' title="project name" onClick={handleOpenModal}>
+                                <div className='projectname' title="project name" onClick={()=>handleOpenModal(1)}>
                                     +
                                 </div>
                                 <div className='project-detail' title="code link">
@@ -39,7 +42,7 @@ const Project = () => {
                         <div className='project-image'>
                             <img src={Chatwoot} alt="Internet Connection" />
                             <div className='projectname-detail'>
-                                <div className='projectname' title="project name" onClick={handleOpenModal}>
+                                <div className='projectname' title="project name" onClick={()=>handleOpenModal(2)}>
                                     +
                                 </div>
                                 <div className='project-detail' title="code link">
@@ -52,7 +55,7 @@ const Project = () => {
                         <div className='project-image'>
                             <img src={pprtrl} alt="Internet Connection" />
                             <div className='projectname-detail'>
-                                <div className='projectname' title="project name" onClick={handleOpenModal}>
+                                <div className='projectname' title="project name" onClick={()=>handleOpenModal(3)}>
                                     +
                                 </div>
                                 <div className='project-detail' title="code link">
@@ -65,7 +68,7 @@ const Project = () => {
                         <div className='project-image'>
                             <img src={DocSign} alt="Internet Connection" />
                             <div className='projectname-detail'>
-                                <div className='projectname' title="project name" onClick={handleOpenModal}>
+                                <div className='projectname' title="project name" onClick={()=>handleOpenModal(4)}>
                                     +
                                 </div>
                                 <div className='project-detail' title="code link">
@@ -78,7 +81,7 @@ const Project = () => {
                         <div className='project-image'>
                             <img src={Ribago} alt="Internet Connection" />
                             <div className='projectname-detail'>
-                                <div className='projectname' title="project name" onClick={handleOpenModal}>
+                                <div className='projectname' title="project name" onClick={()=>handleOpenModal(5)}>
                                     +
                                 </div>
                                 <div className='project-detail' title="code link">
@@ -91,7 +94,7 @@ const Project = () => {
                 <div className='image-modal'>
                     {/* <ProjectimageCarousel/> */}
                     {/* <button onClick={handleOpenModal}>Open Modal</button> */}
-                    <ImageModal show={showModal} handleClose={handleCloseModal} />
+                    <ImageModal show={showModal} handleClose={handleCloseModal} objectId={projectId} />
                 </div>
             </div>
         </>

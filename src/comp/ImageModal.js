@@ -3,7 +3,7 @@ import React from 'react';
 import ProjectimageCarousel from './ProjectimageCarousel'
 import '../style/ImageModal.css'; // optional: for modal styling
 
-const Modal = ({ show, handleClose, children }) => {
+const Modal = ({ show, handleClose, objectId }) => {
   return (
     show && (
       <div className="modal-backdrop">
@@ -12,7 +12,7 @@ const Modal = ({ show, handleClose, children }) => {
             &times;
           </button>
           <div className='image-modal'>
-            <ProjectimageCarousel/>
+            <ProjectimageCarousel objectid={objectId}/>
           </div>
         </div>
       </div>
