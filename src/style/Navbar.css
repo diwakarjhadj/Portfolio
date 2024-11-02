@@ -49,6 +49,12 @@
   border-radius: 50%;
   cursor: pointer;
 }
+.social-media-link.youtube:hover{
+  background: var(--red-color);
+  padding: 8px;
+  border-radius: 50%;
+  cursor: pointer;
+}
 
 .social-media-link:hover {
   background-color: var(--blue-color);

@@ -1,13 +1,9 @@
 import React from 'react';
 import '../style/Resume.css';
-// import {useLocation} from 'react-router-dom';
-
-// const PDF_file = 'http://localhost:3000/resume1.pdf';
 
 const location = window.location.href;
 const PDF_file = `${location}resume1.pdf`;
 const Resume = () => {
-    console.log("Location::::", location);
     const downloadFile = (url) => {
         fetch(url).then((response) => response.blob()).then((blob) => {
             const blobURL = window.URL.createObjectURL(new Blob([blob]));

@@ -27,7 +27,10 @@
   font-size: 30px;
   color: var(--blue-color);
 }
-
+.social-media-link-contact.youtube i {
+  font-size: 30px;
+  color:var(--red-color);
+}
 /* ############################### Media-query ######################### */
 
 @media screen and (max-width: 991px) {

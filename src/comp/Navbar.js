@@ -29,6 +29,9 @@ window.addEventListener('scroll', function () {
 
 
 const Navbar = () => {
+    const handleNavigation = (url) => {
+        window.open(url, '_blank', 'noopener,noreferrer'); // Opens the link in a new tab
+    };
 
     const [isBarsVisible, setIsBarsVisible] = useState(true);
 
@@ -54,7 +57,7 @@ const Navbar = () => {
             // Check if the window width is at most 991px
             if (windowWidth <= 991) {
                 setIsBarsVisible(true); // Reset the visibility when the window is resized to 991px or less
-            } else{
+            } else {
                 setIsBarsVisible(false); // Hide the icons when the window is wider than 991px
             }
         };
@@ -85,10 +88,15 @@ const Navbar = () => {
                         </div>
                         <div className='social-media'>
                             <div className='social-media-link twitter'><i className="fa-brands fa-twitter"></i></div>
-                            <div className='social-media-link youtube'><i className="fa-brands fa-youtube"></i></div>
+                            <div className='social-media-link youtube'
+                                onClick={() => handleNavigation('https://studio.youtube.com/channel/UCjZGcg-NwI96hksQsIcQJDA')}
+                            >
+                                <i className="fa-brands fa-youtube"></i>
+                            </div>
                             <div className='social-media-link instagram'><i className="fa-brands fa-instagram"></i></div>
                             <div className='social-media-link facebook'><i className="fa-brands fa-facebook"></i></div>
-                            <div className='social-media-link linkedin'><i className="fa-brands fa-linkedin"></i></div>
+                            <div className='social-media-link linkedin'
+                            onClick={() => handleNavigation('https://www.linkedin.com/in/diwakar-jha-22a436218/')}><i className="fa-brands fa-linkedin"></i></div>
                         </div>
 
                         <div className='portflio-maindesc'>
