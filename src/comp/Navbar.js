@@ -87,16 +87,16 @@ const Navbar = () => {
                             <div className='profile-name'>Diwakar Jha</div>
                         </div>
                         <div className='social-media'>
-                            <div className='social-media-link twitter'><i className="fa-brands fa-twitter"></i></div>
+                            <div className='social-media-link twitter' title="Twitter"><i className="fa-brands fa-twitter"></i></div>
                             <div className='social-media-link youtube'
-                                onClick={() => handleNavigation('https://studio.youtube.com/channel/UCjZGcg-NwI96hksQsIcQJDA')}
+                                onClick={() => handleNavigation('https://www.youtube.com/@diwakarjha5339')} title="Youtube"
                             >
                                 <i className="fa-brands fa-youtube"></i>
                             </div>
-                            <div className='social-media-link instagram'><i className="fa-brands fa-instagram"></i></div>
-                            <div className='social-media-link facebook'><i className="fa-brands fa-facebook"></i></div>
+                            <div className='social-media-link instagram' title="Instagram"><i className="fa-brands fa-instagram"></i></div>
+                            <div className='social-media-link facebook' title="Facebook"><i className="fa-brands fa-facebook"></i></div>
                             <div className='social-media-link linkedin'
-                            onClick={() => handleNavigation('https://www.linkedin.com/in/diwakar-jha-22a436218/')}><i className="fa-brands fa-linkedin"></i></div>
+                            onClick={() => handleNavigation('https://www.linkedin.com/in/diwakar-jha-22a436218/')} title="Linkedin"><i className="fa-brands fa-linkedin"></i></div>
                         </div>
 
                         <div className='portflio-maindesc'>
